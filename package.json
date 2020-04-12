@@ -1,0 +1,30 @@
+{
+  "name": "cdc-tw-notifier",
+  "version": "1.0.0",
+  "description": "Implemention of subsrcription to CDC (Taiwan Centers for Disease Control), and sending notification via webhook while news coming.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhjulie/cdc-tw-notifier.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jhjulie/cdc-tw-notifier/issues"
+  },
+  "homepage": "https://github.com/jhjulie/cdc-tw-notifier#readme",
+  "dependencies": {
+    "moment": "^2.24.0",
+    "moment-timezone": "^0.5.28",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5",
+    "rss-feed-emitter": "^3.1.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
